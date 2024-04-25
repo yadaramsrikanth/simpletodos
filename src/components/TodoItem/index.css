@@ -1,0 +1,27 @@
+/* Write your CSS here */
+button {
+  background-color: transparent;
+  color: #ff0b37;
+  border: 2px #ff0b37 solid;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.title {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
